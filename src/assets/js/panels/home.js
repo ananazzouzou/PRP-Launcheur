@@ -187,7 +187,7 @@ class Home {
             online.classList.toggle("off");
             playersConnected.textContent = serverPing.playersConnect;
         } else if (serverPing.error) {
-            nameServer.textContent = 'PrisonRP';
+            nameServer.textContent = 'Prison RP';
             serverMs.innerHTML = `<span class="red">Hors ligne</span>`;
         }
     }
